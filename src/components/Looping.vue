@@ -1,6 +1,6 @@
 <template>
-  <div class="body_section">
-    <div class="body_section-title">Why should you use Vue?</div>
+  <div class="body-section">
+    <div class="body-section_title">Why should you use Vue?</div>
     <ul>
       <li v-for="reason in reasons" :key="reason">{{ reason }}</li>
     </ul>
@@ -24,7 +24,7 @@ export default {
 </script>
 
 <style scoped>
-.body_section-title {
+.body-section_title {
   font-weight: 450;
 }
 li {

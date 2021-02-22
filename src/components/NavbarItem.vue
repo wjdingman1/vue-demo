@@ -1,6 +1,6 @@
 <template>
-  <div class="navbar_item" v-on:click="loadRoute">
-    <div class="navbar_item-title">{{ title }}</div>
+  <div class="navbar-item" v-on:click="loadRoute">
+    <div class="navbar-item_title">{{ title }}</div>
   </div>
 </template>
 
@@ -17,12 +17,12 @@ export default {
 </script>
 
 <style scoped>
-.navbar_item {
+.navbar-item {
   display: inline-block;
   padding: 1rem;
   margin: 0.5rem;
 }
-.navbar_item-title {
+.navbar-item_title {
   font-size: 2rem;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
