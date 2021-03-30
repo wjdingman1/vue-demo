@@ -2,7 +2,7 @@
   <div class="navbar">
     <NavbarItem title="Looping" />
     <NavbarItem title="Conditionals" />
-    <NavbarItem title="Buttons" /></div
+    <NavbarItem title="RestApi" /></div
 ></template>
 
 <script>
