@@ -1,4 +1,6 @@
-const state = {};
+const state = {
+  framework: "vue"
+};
 
 const mutations = {};
 
